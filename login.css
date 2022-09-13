@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loginForm {
+    font-family: monospace;
+    text-transform: capitalize;
+    width: 30vw;
+    margin: 30vh auto;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    text-align: center;
+}
+
+.loginForm2 {
+    font-family: monospace;
+    text-transform: capitalize;
+    width: 30vw;
+    margin: 30vh auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    text-align: center;
+}
+
+.login {
+    width: 25vw;
+    height: 4vh;
+    font-size: 3vh;
+}
+
+.field {
+    width: 25vw;
+    height: 4vh;
+    margin-bottom: 2vh;
+}
+
+.button {
+    width: 25vw;
+    height: 4vh;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-bottom: 1vh;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.passwordfield {
+    width: 21.5vw;
+    height: 4vh;
+}
+
+.extend {
+    width: 3vw;
+    height: 4vh;
+    margin-bottom: 2vh;
+}
+
+.box-alert {
+    width: 30vw;
+    height: 40vh;
+    margin: 30vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.alert-button {
+    height: 4vh;
+    width: 10vw;
+    margin: 2vh auto;
+}
